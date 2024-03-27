@@ -4,8 +4,8 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "HelloWorld",
-      component: () => import("../components/HelloWorld.vue"),
+      name: "LandingPage",
+      component: () => import("../mainPages/LandingPage.vue"),
     },
 
   ],
